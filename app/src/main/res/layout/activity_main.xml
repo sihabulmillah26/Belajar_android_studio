@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FF018786"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alat Hitung Q"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/kalkulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kalkulator"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <Button
+        android:id="@+id/Konversi_Suhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Konversi Suhu"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <Button
+        android:id="@+id/hitung_BB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hitung Berat Badan"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+</LinearLayout>

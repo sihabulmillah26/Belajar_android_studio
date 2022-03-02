@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BelajarAndroid</string>
+    <string name="suhu"><b>Konversi Suhu</b></string>
+    <string-array name="suhu_nama">
+        <item>Farenheit (F)</item>
+        <item>Celcius (C)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+    <string-array name="jenis">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
